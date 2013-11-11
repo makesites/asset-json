@@ -7,7 +7,7 @@ A blueprint to create a descriptive json for a static web asset. Originally conc
 
 The web app hosted in the repo may be used as an online generator at: http://makesites.org/asset-json
 
-Alternatively it can be downloaded locally using bower: 
+Alternatively it can be downloaded locally using bower:
 ```
 bower install asset.json
 ```
@@ -16,7 +16,7 @@ For the time being there is no certal repository planned as assets are usually c
 
 ## Schema
 
-Main goal of asset.json is to fit in the existing ecosystem of open source software and use existing conventions established by projects like: 
+Main goal of asset.json is to fit in the existing ecosystem of open source software and use existing conventions established by projects like:
 
 * NPM (package.json)
 * Component (component.json)
@@ -24,17 +24,19 @@ Main goal of asset.json is to fit in the existing ecosystem of open source softw
 
 ### Attributes
 
-These are the main attributes any asset.json may contain: 
+These are the main attributes any asset.json may contain:
 
-* ***name***: an alphanumeric (preferably lower case) name that can be used as an identifier
-* ***version***: Standard thre number versioning of the asset that can help when upgrading an asset or one of its dependencies
-* ***author***: The main creator of an asset
-* ***contributors***: Additional information of people that controbuted to the creation of the asset
-* ***domains***: The URLs of the hosts that are allowed to use this asset
-* ***dependencies***: A list of other assets included as independent components
-* ***license***: An array of licenses under which the asset is distributed
+* *name*: an alphanumeric (preferably lower case) name that can be used as an identifier
+* *version*: Standard thre number versioning of the asset that can help when upgrading an asset or one of its dependencies
+* *author*: The main creator of an asset
+* *contributors*: Additional information of people that controbuted to the creation of the asset
+* *format*: An insight on the specific format of the asset. It may be something generic like _video_ or more specific like _avi_
+* *sources*: An array of folder paths or an object with a more detailed file list, defining the asset location(s)
+* *domains*: The URLs of the hosts that are allowed to use this asset
+* *dependencies*: A list of other assets included as independent components
+* *license*: An array of licenses under which the asset is distributed
 
-## Credits 
+## Credits
 
 Maintained by Makis Tracend ( [@tracend](http://github.com/tracend) )
 
