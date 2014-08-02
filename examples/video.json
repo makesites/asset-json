@@ -1,0 +1,57 @@
+{
+	"name": "KDI Intro",
+	"version": "0.1.0",
+	"description": "If the ideal world is a virtual world, creating it can only be a noble task",
+	"author": "kdi",
+	"keywords": [
+		"kdi",
+		"intro"
+	],
+	"contributors": [
+		{
+			"name": "Makis Tracend",
+			"email": "makis@kdi.co"
+		}
+	],
+	"homepage": "http://kdi.co",
+	"sources": {
+		"video": {
+			"144": {
+				"mp4": "//cdn.kdi.co/video/logos/kdi/kdi_20140501_15s-144.mp4",
+				"webm": "//cdn.kdi.co/video/logos/kdi/kdi_20140501_15s-144.webm"
+			},
+			"360": {
+				"mp4": "//cdn.kdi.co/video/logos/kdi/kdi_20140501_15s-360.mp4",
+				"webm": "//cdn.kdi.co/video/logos/kdi/kdi_20140501_15s-360.webm"
+			},
+			"576": {
+				"mp4": "//cdn.kdi.co/video/logos/kdi/kdi_20140501_15s-576.mp4",
+				"webm": "//cdn.kdi.co/video/logos/kdi/kdi_20140501_15s-576.webm"
+			},
+			"720": {
+				"mp4": "//cdn.kdi.co/video/logos/kdi/kdi_20140501_15s-720.mp4",
+				"webm": "//cdn.kdi.co/video/logos/kdi/kdi_20140501_15s-720.webm"
+			},
+			"1080": {
+				"mp4": "//cdn.kdi.co/video/logos/kdi/kdi_20140501_15s-1080.mp4",
+				"webm": "//cdn.kdi.co/video/logos/kdi/kdi_20140501_15s-1080.webm"
+			}
+		},
+		"images": {
+			"144": "//cdn.kdi.co/video/logos/kdi/kdi_20140501_15s-144.png",
+			"360": "//cdn.kdi.co/video/logos/kdi/kdi_20140501_15s-360.png",
+			"576": "//cdn.kdi.co/video/logos/kdi/kdi_20140501_15s-576.png",
+			"720": "//cdn.kdi.co/video/logos/kdi/kdi_20140501_15s-720.png",
+			"1080": "//cdn.kdi.co/video/logos/kdi/kdi_20140501_15s-1080.png"
+		}
+	},
+	"licenses": [
+		{
+			"type": "All rights reserved © K&D Interactive",
+			"url": "http://kdi.co/terms"
+		}
+	],
+	"dependencies": {
+
+	}
+}
